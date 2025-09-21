@@ -7,7 +7,7 @@ styles.card
 
 const ProductCard = () => {
   return (
-    <div className='{styles.card}'>
+    <div className='p-5 my-5 bg-sky-400 text-white text xl hover:bg-sky-600 rounded-lg shadow-lg flex flex-col justify-between  '>
         <AddToCart />
     </div>
   )
